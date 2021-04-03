@@ -6,7 +6,6 @@ const SignIn = () => {
   const [isSignedIn, setIsSignedIn] = useState(false);
   const [user, setUser] = useState(null);
   useEffect(() => {
-    console.log('call effect');
     firebase.auth().onAuthStateChanged(
       (user) => {
         setUser(user);
