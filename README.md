@@ -1,6 +1,13 @@
-# react-firebase-auth
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Pre Requirements
+
+- Create `.env` file and set env variables with firebase config (check `src/firebase/index.js`)
+- Create credentials as described https://developers.google.com/identity/sign-in/web/sign-in
+
+I've used [firebaseui](https://www.npmjs.com/package/react-firebaseui) for simplify styling.
 
 ### `yarn start`
 
